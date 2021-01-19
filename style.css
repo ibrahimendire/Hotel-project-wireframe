@@ -1,0 +1,61 @@
+body
+{
+border: 3px solid red;
+color: blue;
+	text-decoration: none;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color:lightblue;
+}
+.main
+{
+border: 3px solid green;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	background-color:lightblue;
+}
+.login
+{
+border: 3px solid green;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+
+}
+
+.room {
+	border: 3px solid green;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.checkin {
+	border: 3px solid green;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.pay {
+	border: 3px solid green;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.email {
+	border: 3px solid green;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+.view {
+	background-color:aqua;
+}
