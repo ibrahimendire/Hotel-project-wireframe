@@ -57,5 +57,27 @@ border: 3px solid green;
 	padding-top: 5px;
 }
 .view {
-	background-color:aqua;
+	background-color:lightgreen;
+	font-size:50px;
+}
+
+.addroom {
+	border: 3px solid green;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.contact {
+border: 3px solid green;
+padding-left: 20px;
+padding-right: 10px;
+padding-bottom: 5px;
+padding-top: 5px;
+}
+
+.texta {
+	height:100px;
+ width:300px;
 }

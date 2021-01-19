@@ -7,9 +7,9 @@
 <body>
     <h3 id="Home" class="view">Home View</h3>
     <div class="main">
-        <a href="#Home">Home</a>  &nbsp &nbsp 
-        <a href="#Room">Room</a>   &nbsp &nbsp 
-        <a href="#Contact">Contact Us</a>   &nbsp &nbsp 
+        <a href="#Home">Home</a>  &nbsp &nbsp
+        <a href="#Room">Room</a>   &nbsp &nbsp
+        <a href="#Contact">Contact Us</a>   &nbsp &nbsp
 
         &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
         &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
@@ -19,7 +19,7 @@
         <a href="https://ibb.co/D1HQ29Y"><img src="https://i.ibb.co/L0X17xr/A0-CEA36-C-BEAB-4-B6-E-943-C-D4-C58515-DD27.jpg" height="150" width="300" alt="A0-CEA36-C-BEAB-4-B6-E-943-C-D4-C58515-DD27" border="0"></a>
     </div>
 
-    <h3 id="Home" class="view">Home View</h3>
+    <h3 id="Home" class="view">Employee/Admin Home View</h3>
     <div class="main">
         <a href="#Home">Home</a>  &nbsp &nbsp
         <a href="#Room">Sample Rooms</a>   &nbsp &nbsp
@@ -27,7 +27,7 @@
         <a href="#Addemployee">Add Employee</a>   &nbsp &nbsp
         <a href="#Contact">Contact Us</a>   &nbsp &nbsp
 
-        
+
         &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
         <a href="#Login">log out</a>
         <h1>Welcome to Lemi Hotel</h1>
@@ -40,14 +40,14 @@
     <h3 id="Login" class="view">Log in View</h3>
     <div class="login">
         <h2>Log in if you are employee and have account </h2>
-        <p1>If you are Guest , You can bookin with out log in  <a href="#bookhere">Book Now</a></p1>
+        <p1>If you are Guest , You can bookin with out log in ,So  <a href="#bookhere"> Book Now </a></p1>
         <h2>employee log in</h2>
         <form>
             <label>user name</label><br />
             <input type="text" name="name" /><br>
             <label>Pass word</label><br />
             <input type="password" name="password" /><br />
-            <input type="submit" value="login" />
+            <a href="#addemployee"><input type="submit" value="login" /></a>
         </form>
     </div>
     <h3 id="Room"> Room </h3>
@@ -91,18 +91,87 @@
     <div class="pay">
         <h1>welCome @Guest Name to Lemi Hotel</h1>
         <h3>pay with card or checkin at front desk</h3>
-        <form >
+        <form>
             <label>Card Number</label><br />
             <input type="text" placeholder="Card Number" /> <br />
             <label>Billing Address</label><br />
             <input type="text" placeholder="Billing address" /><br />
-           <a href="#ema"> <input type="submit" value="Checkin"  /></a>
+            <a href="#ema"> <input type="submit" value="Checkin" /></a>
         </form>
     </div>
     <h1 class="view" id="ema">email Confirmation View</h1>
     <div class="email">
         <h4>Thank you for staying with Us your room detail is sent to @Guest email</h4>
+    </div>
 
+
+    <h1 class="view" id="Addroom">Add room View</h1>
+    <div class="addroom">
+        <form id="bookhere">
+            <label>Room Number</label><br />
+            <input type="number" /> <br />
+            <label>Price</label><br />
+            <input type="number" placeholder="&#36;" /><br />
+            <label>Upload Picture</label>
+            <input type="file" id="img" name="img" accept="image/*">
+            <br />
+            <label>Select Room</label>
+            <select>
+                <option>single</option>
+                <option>Double</option>
+                <option>King</option>
+            </select><br />
+            <input type="submit" value="Add Room" /><br />
+
+        </form>
+    </div>
+
+    <h1 id="Addemployee" class="view"> Add Employee View</h1>
+    <div class="checkin">
+
+        <form id="bookhere">
+            <label>First Name</label><br />
+            <input type="text" name="fname" placeholder="First Name" /> <br />
+            <label>Last Name</label><br />
+            <input type="text" name="lname" placeholder="Last Name" /><br />
+            <label>email </label><br />
+            <input type="email" name="email" placeholder="email@example.com" /><br />
+            <label>Phone Number </label><br />
+            <input type="number" name="phone" placeholder="Phone Number" /><br />
+            <label>Address</label><br />
+            <input type="text" name="address" placeholder="Address" /><br />
+            <label>Pass word</label><br />
+            <input type="password" name="password" placeholder="password" /><br />
+            <label> confirm Pass word</label><br />
+            <input type="password" name="confirm password" placeholder=" confirm password" /><br />
+            <input type="submit" value="Add employee" /><br />
+
+        </form>
+    </div>
+
+
+    <h3 class="view">Contact Form View</h3>
+
+    <div class="contact">
+        <form >
+            <label for="fname">First Name</label><br />
+            <input type="text" id="fname" name="firstname" placeholder="Your name.."><br />
+
+            <label for="lname">Last Name</label><br />
+            <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br />
+
+            <label>What can we help you with</label><br />
+            <select >
+                <option >Check in</option>
+                <option >Room Supply</option>
+                <option >Other</option>
+            </select><br />
+
+            <label>Tell Us more about what you need</label><br />
+            <textarea placeholder="say somethig ...." class="texta"></textarea><br />
+
+            <input type="submit" value="Submit">
+        </form>
     </div>
 </body>
 </html>
